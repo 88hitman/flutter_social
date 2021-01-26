@@ -1,21 +1,23 @@
 # flutter_social
 
-This Flutter application is made with the BLoC architecture.
-This app calls ["TheSportsDB API"](https://www.thesportsdb.com/api.php)
+Creation of a social network application with Flutter and Firebase.
 
-<img src="https://github.com/88hitman/blocs_sports/blob/master/images/ss0.jpg" alt="How example looks" width="300" height="540">
-<img src="https://github.com/88hitman/blocs_sports/blob/master/images/ss1.jpg" alt="How example looks" width="300" height="540">
-<img src="https://github.com/88hitman/blocs_sports/blob/master/images/ss2.jpg" alt="How example looks" width="300" height="540">
-<img src="https://github.com/88hitman/blocs_sports/blob/master/images/ss3.jpg" alt="How example looks" width="300" height="540">
+
+<img src="https://github.com/88hitman/flutter_social/blob/master/assets/ss0.jpg" alt="How example looks" width="300" height="540">
+<img src="https://github.com/88hitman/flutter_social/blob/master/assets/ss1.jpg" alt="How example looks" width="300" height="540">
+<img src="https://github.com/88hitman/flutter_social/blob/master/assets/ss2.jpg" alt="How example looks" width="300" height="540">
+<img src="https://github.com/88hitman/flutter_social/blob/master/assets/ss3.jpg" alt="How example looks" width="300" height="540">
+<img src="https://github.com/88hitman/flutter_social/blob/master/assets/ss4.jpg" alt="How example looks" width="300" height="540">
 
 
 ## Features
 
-- Bloc architecture (no plugin used for this)
-- Models for Events, Sports, Leagues, Teams, Players, ...
-- UI separation (screens folder, widgets folder, lists folder and tiles folder)
-- Calls to REST API
-- Json handling
+- User authentication with Firebase auth
+- Writing and reading from a database (NoSQL CloudFirestore) with cloud_firestore plugin
+- User profil image modification using image_picker plugin
+- Use of firebase Storage (for profil image)
+- Use of cached_network_image plugin
+- Use of intl plugin for date formatting
 - Asynchronous programming
 
 
